@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div id="app">
+        <div class="section" id="products">
+            <div class="header">
+                <div> <img src="./assets/nike.png" class="logo-nike" alt=""></div>
+                <h2 class="heading">Our Products</h2></div>
+            <div id="product-list">
+                <!-- Product listing will be displayed here -->
+            </div>
+        </div>
+        <div class="section" id="cart">
+            <div class="header">
+                <div> <img src="./assets/nike.png" class="logo-nike" alt=""></div>
+                <div class="sub-header">
+                    <h2 class="heading">Your cart</h2>
+                <p id="total-price">Total: $0.00</p>   
+                </div> 
+            </div>
+            <div id="cart-list">
+               
+                <!-- Shopping cart content will be displayed here -->
+            </div>
+
+            <p id="cart-empty-message" style="display: none;">Your cart is empty.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const totalPriceElement = document.getElementById('total-price');
     const cartEmptyMessage = document.getElementById('cart-empty-message');
 
-    const products = [
+     const products = [
         {
             "id": 1,
             "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1315882/air-zoom-pegasus-36-mens-running-shoe-wide-D24Mcz-removebg-preview.png",
